@@ -139,6 +139,7 @@ unsigned long ContFramePool::get_frames(unsigned int _n_frames)
 {
     Console::puts("ContframePool::get_frames not implemented!\n");
     assert(false);
+    return 0;
 }
 
 void ContFramePool::mark_inaccessible(unsigned long _base_frame_no,
@@ -161,4 +162,5 @@ unsigned long ContFramePool::needed_info_frames(unsigned long _n_frames)
     // TODO: IMPLEMENTATION NEEEDED!
     Console::puts("ContframePool::need_info_frames not implemented!\n");
     assert(false);
+    return 0;
 }
